@@ -9,6 +9,14 @@
                 '''
 
             }
+            stage('test'){
+                steps {
+                    sh '''
+                    echo "testing.."
+                    pwd
+                    '''
+                }
+            }
         }
     }
  }
