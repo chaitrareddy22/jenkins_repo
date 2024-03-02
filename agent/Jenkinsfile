@@ -7,16 +7,7 @@
                 echo "Building..."
                 ls -lrt
                 '''
-
-            }
-            stage('test'){
-                steps {
-                    sh '''
-                    echo "testing the build."
-                    pwd
-                    '''
-                }
-            }
+             }
         }
     }
  }
