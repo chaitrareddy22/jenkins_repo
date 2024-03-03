@@ -4,19 +4,20 @@
         stage('Build') {
             steps {
                 sh '''
-                echo "Building..."
+                echo "development building"
                 ls -lrt
                 '''
 
             }
+        }
             stage('test'){
                 steps {
                     sh '''
-                    echo "testing the build."
+                    echo "testing the developmnt"
                     pwd
                     '''
                 }
             }
         }
     }
- }
+ 
