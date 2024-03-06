@@ -14,6 +14,7 @@
                 steps {
                     sh '''
                     echo "testing the build."
+                    $JAVA_HOME
                     pwd
                     '''
                 }
