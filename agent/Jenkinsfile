@@ -15,7 +15,7 @@
                     sh '''
                     echo "testing the build."
                     echo "$JOB_NAME"
-                    echo "$JOB_ID
+                    echo "$JOB_ID"
                     pwd
                     '''
                 }
