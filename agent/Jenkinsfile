@@ -13,7 +13,7 @@
             stage('test'){
                 steps {
                     sh '''
-                    echo "testing the developmnt"
+                    echo "testing the developmnt and doing some changes"
                     pwd
                     '''
                 }
